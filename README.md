@@ -5,5 +5,5 @@ Store own writted algorithm questions
 ## 一、数字三角模型：
   + 数字三角：https://www.luogu.com.cn/problem/P1216
   + 摘花生：http://noi.openjudge.cn/ch0206/2728/
-  + \spadesuit方格取数：http://noi.openjudge.cn/ch0206/8786/
+  + \*方格取数：http://noi.openjudge.cn/ch0206/8786/
   
