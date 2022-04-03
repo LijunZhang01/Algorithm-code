@@ -7,10 +7,10 @@ Store own writted algorithm questions
   + 摘花生：http://noi.openjudge.cn/ch0206/2728/
   + **方格取数**：http://noi.openjudge.cn/ch0206/8786/
 ## 二、LIS（最长上升子序列问题）
-  + 最长上升子序列：https://www.acwing.com/problem/content/2981/
+  + 最长上升子序列：https://vjudge.net/problem/HDU-1087
   + 合唱队形：https://www.luogu.com.cn/problem/P1091
   + 友好城市:https://www.luogu.com.cn/problem/P2782
-  + 最大上升子序列和:
+  + 最大上升子序列和:https://vjudge.net/problem/HDU-1087
   + 拦截导弹
   + 导弹防御系统
   + 最长公共上升子序列
