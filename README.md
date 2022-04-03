@@ -6,5 +6,13 @@ Store own writted algorithm questions
   + 数字三角：https://www.luogu.com.cn/problem/P1216
   + 摘花生：http://noi.openjudge.cn/ch0206/2728/
   + **方格取数**：http://noi.openjudge.cn/ch0206/8786/
-## 二、KMP算法
+## 二、LIS（最长上升子序列问题）
+  + 最长上升子序列：https://www.acwing.com/problem/content/2981/
+  + 合唱队形：https://www.luogu.com.cn/problem/P1091
+  + 友好城市:https://www.luogu.com.cn/problem/P2782
+  + 最大上升子序列和:
+  + 拦截导弹
+  + 导弹防御系统
+  + 最长公共上升子序列
+# KMP算法
   + KMP字符串匹配（模板题）：https://www.luogu.com.cn/problem/P3375
