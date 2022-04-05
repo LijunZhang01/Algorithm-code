@@ -2,26 +2,32 @@
 using namespace std;
 
 const int N=100010;
-int f[N],a[N],g[N];
+int a[N],f[N],g[N];
+int n,cnt,cnt1;
 
 int main(){
-    int p=0;
-    int res=0,res1=0;
-    while(cin>>a[p]) p++;
-    for(int i=p-1;i>=0;i--){
-        f[i]=1;
-        for(int j=p-1;j>i;j--){
-            if(a[i]>=a[j]) f[i]=max(f[i],f[j]+1);
+    while(cin>>a[n]) n++;
+    f[0]=2e-9,g[0]=2e-9;
+    for(int i=n-1;i>=0;i--){
+        int l=0,r=cnt;
+        while(l<r){
+            int mid=l+r+1>>1;
+            if(f[mid]<=a[i]) l=mid;
+            else r=mid-1;
         }
-        res=max(res,f[i]);
-    }
-    cout<<res<<endl;
-    int cnt=0;
-    for(int i=0;i<p;i++){
-        int k=0;
-        while(k<cnt&&g[k]<a[i]) k++;
-        g[k]=a[i];
-        if(k>=cnt) cnt++; 
+        f[l+1]=a[i];
+        cnt=max(cnt,l+1);
     }
     cout<<cnt<<endl;
+    for(int i=0;i<n;i++){
+        int l=0,r=cnt1;
+        while(l<r){
+            int mid=l+r+1>>1;
+            if(g[mid]<a[i]) l=mid;
+            else r=mid-1;
+        }
+        g[l+1]=a[i];
+        cnt1=max(cnt1,l+1);
+    }
+    cout<<cnt1<<endl;
 }
